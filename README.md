@@ -25,7 +25,7 @@ that follow the `/sector/:number` pattern where `:number` is a phone number. Res
   },
   "required": ["number", "sector"]
 }
-
+```
 
 In the topics below, we describe the process, from the moment a request is made:
 
@@ -37,6 +37,7 @@ In the topics below, we describe the process, from the moment a request is made:
 2. We aggregate the response based on the prefix with the sectors and number of phones per a sector.
 
 Given a list:
+
 ```
 ["+1983248", "001382355", "+147 8192", "+4439877"]
 ```
